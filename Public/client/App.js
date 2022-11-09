@@ -8,7 +8,7 @@ import ChooseFrom from "./screens/Payment/ChooseFrom";
 const Stack = createNativeStackNavigator();
 
 export default function App() {
-  return(
+  return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="SignIn">
         <Stack.Screen name="SignUp" component={SignUp} />
@@ -16,5 +16,5 @@ export default function App() {
         <Stack.Screen name="ChooseFrom" component={ChooseFrom} />
       </Stack.Navigator>
     </NavigationContainer>
-  )
+  );
 }
